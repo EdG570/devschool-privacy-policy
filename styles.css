@@ -1,0 +1,33 @@
+p {
+  line-height: 1.4;
+}
+
+#wrapper {
+  padding: 1em;
+}
+
+.title {
+  text-decoration: underline;
+}
+
+#np-info > li {
+  margin-bottom: 0.25em;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/*---- Media Queries ------*/
+
+@media screen and (min-width: 550px) {
+  #wrapper {
+    width: 550px;
+    margin: 0 auto;
+  }
+
+  p {
+    text-align: justify;
+  }
+}
